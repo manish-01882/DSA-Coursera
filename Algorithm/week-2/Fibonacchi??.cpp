@@ -4,7 +4,7 @@
 using namespace std;
 
 long double FibList(int n){
-    interval<long double> F;
+    int <long double> F;
     F.push_back(0);
     F.push_back(1);
 

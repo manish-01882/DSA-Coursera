@@ -6,6 +6,7 @@ using namespace std;
 
 int edit_distance(const string &str1, const string &str2) {
   //write your code here
+  
   int D[10][10] = {0};
   int insertion,deletion,match,mismatch;
   for(size_t i=0; i< str1.size(); i++){
